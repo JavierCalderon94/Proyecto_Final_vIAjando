@@ -1,0 +1,34 @@
+# Nombre de usuario de la BBDD
+db_user = ""
+
+# Contraseña de la BBDD
+db_pass = ""
+
+# HOST de la BBDD (IP Pública)
+db_host = ""
+
+# Puerto por defecto, modificar en caso de que sea necesario
+db_port = 5432
+
+# Key para conectar con la API de ChatGPT
+key = ""
+
+
+''' 
+Diccionario en el que se almacena el rol del chatbot y el historial de la conversación para que mantenga un hilo coherente.
+
+Por defecto está asignado para actuar como un agente de viajes, en caso de que se desee modificar únicamente hay que reemplazar
+el mensaje comentado.
+'''
+conversacion_estado = {
+    "rol": '''  Eres un agente de viajes experto, debes intentar ayudar al usuario a organizar su viaje.
+                Todas tus respuestas se imprimirán en HTML por lo que es necesario que los saltos
+                de línea que escribas los adaptes para que se lea correctamente, pero no uses títulos ni negritas o cursivas. 
+                Estás únicamente especializado en experiencias turísticas por lo que si te solicitan algo fuera 
+                de esto responde amablemente que no puedes facilitar este servicio. Adicionalmente y únicamente 
+                si el usuario solicita algo ajeno a un viaje recomiendale visitar este enlace en un hipervínculo 
+                que se llame información adicional: https://www.youtube.com/watch?v=dQw4w9WgXcQ. 
+                Recuerda que el enlace deber usarlo solo cpara aquellos usuarios que hagan una solicitud ajena a viajar.''',
+
+    "historial": []
+} 
