@@ -1,12 +1,12 @@
 ## PROYECTO FINAL V***IA***JANDO
 
-Este proyecto consiste en una aplicación web que utiliza un modelo de lenguaje de inteligencia artificial (IA) para simular conversaciones de chat en tiempo real. La aplicación permite a los usuarios interactuar con un asistente de viajes virtual para obtener recomendaciones y sugerencias sobre destinos turísticos.
+Este proyecto consiste en la creación de una API que utiliza un modelo de lenguaje de inteligencia artificial (IA) para simular conversaciones de chat en tiempo real. La aplicación a través de una interfaz permite a los usuarios interactuar con un asistente de viajes virtual para obtener recomendaciones y sugerencias sobre destinos turísticos.
 
 ### Características
 
 - **Asistente de Viajes Virtual**: Utiliza un modelo de lenguaje de IA para simular conversaciones realistas y proporcionar recomendaciones personalizadas a los usuarios sobre destinos turísticos, actividades y más.
 - **Base de Datos en la Nube**: La aplicación se conecta a una base de datos alojada en Google Cloud para almacenar todas las conversaciones de manera segura y escalable.
-- **Historial de Conversaciones**: Permite a los usuarios acceder al historial completo de sus conversaciones pasadas, identificadas por un ID único de conversación.
+- **Historial de Conversaciones**: Permite a los usuarios acceder al historial completo de sus conversaciones pasadas haciendo llamadas a la API, identificadas por un ID único de conversación.
 
 
 ### Estructura de carpetas
