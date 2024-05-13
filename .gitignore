@@ -1,2 +1,6 @@
 Dockerfile
 requirements.txt
+src/config.py
+src/__pycache__
+src/.pytest_cache
+.dockerignore

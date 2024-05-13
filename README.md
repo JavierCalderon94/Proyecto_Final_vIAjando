@@ -2,6 +2,8 @@
 
 Este proyecto consiste en la creación de una API que utiliza un modelo de lenguaje de inteligencia artificial (IA) para simular conversaciones de chat en tiempo real. La aplicación a través de una interfaz permite a los usuarios interactuar con un asistente de viajes virtual para obtener recomendaciones y sugerencias sobre destinos turísticos.
 
+<img src="img/Chat.png" alt="Captura del chat" width="800"/>
+
 ### Características
 
 - **Asistente de Viajes Virtual**: Utiliza un modelo de lenguaje de IA para simular conversaciones realistas y proporcionar recomendaciones personalizadas a los usuarios sobre destinos turísticos, actividades y más.
@@ -61,7 +63,7 @@ Página HTML que muestra la interfaz de chat para interactuar con el asistente v
     `git clone https://github.com/JavierCalderon94/Proyecto_Final_vIAjando`
 2. Completar `config.py.`
 
-    Antes de poder ejecutar cualquier script del proyecto, será necesario cumplimentar modificar el formarto del documento `config.py` de ".txt" a ".py" y cumplimentarlo ya que en éste están recopiladas todas las claves necesarias para conectar con ChatGPT y Google Cloud.
+    Antes de poder ejecutar cualquier script del proyecto, será necesario cumplimentar modificar el formarto del documento `config.txt` de ".txt" a ".py" y cumplimentarlo ya que en éste están recopiladas todas las claves necesarias para conectar con ChatGPT y Google Cloud.
 3. Ejecutar el script `01_crear_bd.py` para crear la base de datos y las tablas necesarias.
 4. Ejecutar el script `02_api.py` para iniciar el servidor de la aplicación.
 5. Acceder a la página principal en un navegador web. Ruta de acceso predeterminada: http://localhost:8000/
